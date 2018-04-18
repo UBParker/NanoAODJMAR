@@ -8,6 +8,7 @@ Until this is merged into the `9_4_X` branch, do a checkout on top of `9.4.4`:
 ```
 cmsrel CMSSW_9_4_4
 cd CMSSW_9_4_4/src
+cmsenv
 git cms-checkout-topic rappoccio:jmar_reclusternano
 git clone https://github.com/cms-jet/NanoAODJMAR.git PhysicsTools/NanoAODJMAR
 scram b -j 10
